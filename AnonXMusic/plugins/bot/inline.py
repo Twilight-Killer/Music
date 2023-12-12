@@ -31,7 +31,7 @@ async def inline_query_handler(client, query):
             channel = result[x]["channel"]["name"]
             link = result[x]["link"]
             published = result[x]["publishedTime"]
-            description = f"{views} | {duration} ᴍɪɴᴜᴛᴇs | {channel}  | {published}"
+            description = f"{views} | {duration} ᴍᴇɴɪᴛ | {channel}  | {published}"
             buttons = InlineKeyboardMarkup(
                 [
                     [
@@ -43,9 +43,9 @@ async def inline_query_handler(client, query):
                 ]
             )
             searched_text = f"""
-❄ <b>ᴛɪᴛʟᴇ :</b> <a href={link}>{title}</a>
+❄ <b>ᴊᴜᴅᴜʟ :</b> <a href={link}>{title}</a>
 
-⏳ <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs
+⏳ <b>ᴅᴜʀᴀꜱɪ :</b> {duration} ᴍᴇɴɪᴛ
 👀 <b>ᴠɪᴇᴡs :</b> <code>{views}</code>
 🎥 <b>ᴄʜᴀɴɴᴇʟ :</b> <a href={channellink}>{channel}</a>
 ⏰ <b>ᴘᴜʙʟɪsʜᴇᴅ ᴏɴ :</b> {published}
