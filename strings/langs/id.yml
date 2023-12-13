@@ -2,7 +2,7 @@ name : 🇮🇩 Indonesia
 
 
 general_1 : "» Balas pesan pengguna atau Berikan nama pengguna/id pengguna."
-general_2 : "» Terjadi error saat memproses kueri Anda.\n\kecuali : <code>{0}</code>"
+general_2 : "» Terjadi error saat memproses kueri Anda.\n\nkecuali : <code>{0}</code>"
 general_3 : "Anda adalah admin anonymous dalam obrolan ini, kembali ke akun pengguna untuk menggunakan saya."
 general_4 : "» Anda tidak memiliki izin untuk mengelola obrolan video.\n\nmuat ulang cache admin melalui /reload"
 general_5 : "» Bot tidak streaming di obrolan video."
